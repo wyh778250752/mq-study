@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 47.108.78.21
+    port: 5672
+    username: wuyuhui
+    password: 123456
+    virtual-host: /
