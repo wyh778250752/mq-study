@@ -17,6 +17,7 @@ public class MqController {
         String message = "hello, fanout";
         rabbitTemplate.convertAndSend(exchange,"",message);
         System.out.println("消息以发送");
+        System.out.println("ok");
     }
 
 
